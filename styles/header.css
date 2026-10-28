@@ -1,0 +1,31 @@
+.header {
+  background-color: #11481e;
+  color: rgb(0, 0, 0);
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.current-group {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.username-display {
+  font-size: 14px;
+  opacity: 0.8;
+}
